@@ -9,7 +9,7 @@
             OpenID Connect
                 
     </title>
-    <meta name="description" content="OpenID Connect is an authentication layer built on top of OAuth 2.0 that allows clients to verify the identity of users based on the authentication performed by an authorization server.">
+    <meta name="description" content="OpenID Connect is an identity layer on top of the OAuth 2.0 protocol that enables clients to verify the identity of a user based on the authentication performed by an authorization server.">
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
@@ -115,21 +115,21 @@
             <section class="category-section page-content">
                 <div class="content has-space">
                     <p>
-                        OpenID Connect is an authentication layer built on top of OAuth 2.0 that allows clients to verify the identity of users based on the authentication performed by an authorization server.
+                        OpenID Connect is an identity layer on top of the OAuth 2.0 protocol that enables clients to verify the identity of a user based on the authentication performed by an authorization server.
                     </p>
                     
                         <h2>Description</h2>
 
                             
-                        <p>OpenID Connect (OIDC) is a widely adopted authentication protocol that provides a way for applications to verify the identity of users and obtain basic profile information. It is built on top of the OAuth 2.0 framework and adds an identity layer to it, enabling both secure authorization and user identity verification. In the context of e-commerce and healthcare, OIDC is crucial as it allows users to log in to multiple services using a single set of credentials, improving user experience and reducing password fatigue. For example, a healthcare provider can use OIDC to allow patients to access their medical records securely while ensuring that the identity of the user is properly authenticated. Furthermore, OIDC supports various authentication mechanisms, such as multi-factor authentication, which enhances security in sensitive sectors like healthcare. The protocol also facilitates interoperability between different services, which is essential for both e-commerce platforms and healthcare applications that need to integrate with third-party services.</p>
+                        <p>OpenID Connect (OIDC) is a simple identity layer built on the OAuth 2.0 protocol, which allows clients to confirm the identity of end-users based on authentication performed by an authorization server. It also facilitates obtaining basic profile information about the user. OIDC is designed to work seamlessly with OAuth 2.0, providing an interoperable authentication protocol leveraging OAuth’s secure, scalable authorization capabilities. In e-commerce and healthcare, OIDC simplifies the login processes for users by enabling single sign-on (SSO) capabilities, thereby enhancing user experience and promoting security. For e-commerce, OIDC can streamline customer authentication, reducing friction during checkout processes. In healthcare, it aids in securely managing patient identity and access to sensitive health information across platforms. OIDC uses JSON Web Tokens (JWT) to convey identity information, ensuring data integrity and security. Its adoption supports adherence to regulatory standards like GDPR and HIPAA, ensuring secure and compliant handling of user data.</p>
 
                             
                         <h2>Examples</h2>
 
                             
                         <ul>
-<li>A user logging into an online store using their Google account through OpenID Connect.</li>
-<li>A patient accessing a telehealth platform using their healthcare provider&#39;s authentication system via OpenID Connect.</li>
+<li>Example 1: An online retail platform using OpenID Connect to allow customers to log in using their Google or Facebook accounts, simplifying the checkout process.</li>
+<li>Example 2: A healthcare application employing OpenID Connect to securely authenticate patients and allow access to their health records across different healthcare providers.</li>
 </ul>
 
                             
@@ -137,8 +137,8 @@
 
                             
                         <ul>
-<li>OpenID Connect provides a standardized way to authenticate users across different platforms.</li>
-<li>It supports various types of clients including web applications, mobile applications, and native applications.</li>
+<li>Additional info 1: OpenID Connect supports various flows and scopes to tailor authentication experiences, such as implicit, authorization code, and hybrid flows.</li>
+<li>Additional info 2: It enhances security by providing features like token revocation and introspection, ensuring that access tokens are valid and have not been tampered with.</li>
 </ul>
 
                             
@@ -146,9 +146,31 @@
 
                             
                         <ul>
+<li><a href="https://openid.net/specs/openid-connect-core-1_0.html">OpenID Connect Core 1.0 incorporating errata set 2</a></li>
+<li><a href="https://openid.net/connect/">How OpenID Connect Works - OpenID Foundation</a></li>
 <li><a href="https://openid.net/developers/how-connect-works/">How OpenID Connect Works - OpenID Foundation</a></li>
-<li><a href="https://openid.net/developers/how-connect-works/">How OpenID Connect Works - OpenID Foundation</a></li>
-<li><a href="https://www.microsoft.com/en-us/security/business/security-101/what-is-openid-connect-oidc">What Is OpenID Connect (OIDC)? | Microsoft Security</a></li>
+<li><a href="https://www.oauth.com/oauth2-servers/openid-connect/">OpenID Connect - OAuth 2.0 Simplified</a></li>
+<li><a href="https://auth0.com/intro-to-iam/what-is-openid-connect-oidc">What is OpenID Connect and what do you use it for? - Auth0</a></li>
+<li><a href="https://connect2id.com/learn/openid-connect">OpenID Connect explained</a></li>
+<li><a href="https://www.oauth.com/oauth2-servers/openid-connect/summary/">Summary - OAuth 2.0 Simplified</a></li>
+<li><a href="https://openid.net/wg/connect/status/">OpenID Connect Working Group Status | OpenID</a></li>
+<li><a href="https://openid.net/developers/discover-openid-and-openid-connect/">Discover OpenID and OpenID Connect - OpenID Foundation</a></li>
+<li><a href="https://openid.net/developers/specs/">Explore All Specifications - OpenID Foundation</a></li>
+<li><a href="https://openid.net/wg/connect/specifications/">AB/Connect Working Group – Specifications - OpenID Foundation</a></li>
+<li><a href="https://openid.net/specs/openid-connect-core-1_0-17.html">Draft: OpenID Connect Core 1.0</a></li>
+<li><a href="https://openid.net/specs/openid-connect-basic-1_0.html">Draft: OpenID Connect Basic Client Implementer&#39;s Guide 1.0</a></li>
+<li><a href="https://openid.net/specs/openid-connect-implicit-1_0.html">Draft: OpenID Connect Implicit Client Implementer&#39;s Guide 1.0</a></li>
+<li><a href="https://openid.net/specs/openid-connect-standard-1_0-21.html">Draft: OpenID Connect Standard 1.0</a></li>
+<li><a href="https://openid.net/specs/openid-connect-basic-1_0-24.html">Draft: OpenID Connect Basic Client Profile 1.0</a></li>
+<li><a href="https://auth0.com/docs/authenticate/protocols/openid-connect-protocol">OpenID Connect Protocol</a></li>
+<li><a href="https://openidconnect.net/">OpenID Connect Playground</a></li>
+<li><a href="https://openid.net/category/specs/openid-connect/">OpenID Connect - OpenID Foundation</a></li>
+<li><a href="https://openid.net/">OpenID - OpenID Foundation</a></li>
+<li><a href="https://openid.net/open-for-comment-government-issued-digital-credentials-and-the-privacy-landscape-whitepaper/">Open for Comment: “Government-issued Digital Credentials and the Privacy Landscape” Whitepaper - OpenID Foundation</a></li>
+<li><a href="https://openid.net/2022/07/05/public-review-period-for-second-proposed-risc-profile-implementers-draft/">Public Review Period for Second Proposed RISC Profile Implementer’s Draft | OpenID</a></li>
+<li><a href="https://openid.net/2023/04/05/open-for-comment-privacy-landscape-whitepaper/">Open for Comment: “Government-issued Digital Credentials and the Privacy Landscape” Whitepaper | OpenID</a></li>
+<li><a href="https://openid.net/review-of-proposed-implementers-draft-of-openid-for-verifiable-credential-issuance/">Public Review Period for Proposed Implementer’s Draft of OpenID for Verifiable Credential Issuance - OpenID Foundation</a></li>
+<li><a href="https://openid.net/openid-foundation-and-the-uk-open-banking-implementation-entity-conformance-and-certification-workshop-april-27-2020/">OpenID Foundation and the UK Open Banking Implementation Entity Conformance and Certification Workshop — April 27, 2020 - OpenID Foundation</a></li>
 </ul>
 
                             

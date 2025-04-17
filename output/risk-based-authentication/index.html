@@ -9,7 +9,7 @@
             Risk-Based Authentication
                 
     </title>
-    <meta name="description" content="A security process that adjusts the level of authentication required based on the perceived risk of a transaction.">
+    <meta name="description" content="A method of authentication where the level of security is adjusted based on the risk associated with a given login attempt.">
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
@@ -115,21 +115,21 @@
             <section class="category-section page-content">
                 <div class="content has-space">
                     <p>
-                        A security process that adjusts the level of authentication required based on the perceived risk of a transaction.
+                        A method of authentication where the level of security is adjusted based on the risk associated with a given login attempt.
                     </p>
                     
                         <h2>Description</h2>
 
                             
-                        <p>Risk-Based Authentication (RBA) is an advanced authentication method that assesses the risk associated with a user’s login attempt or transaction in real-time. This approach evaluates various factors, such as the user&#39;s location, device, behavior patterns, and the sensitivity of the data being accessed, to determine the level of authentication required. In the context of e-commerce and healthcare, where sensitive data is frequently accessed online, RBA plays a crucial role in enhancing security while maintaining user convenience. For instance, if a user logs in from a familiar device and location, they may only need to provide a password. However, if they attempt to access their account from an unfamiliar device or location, RBA may prompt for additional verification, such as a one-time password or biometric authentication. This dynamic approach not only helps to prevent unauthorized access but also minimizes friction for legitimate users, creating a balance between security and user experience.</p>
+                        <p>Risk-Based Authentication (RBA) is an adaptive security measure used in e-commerce and healthcare to enhance user authentication processes by assessing the risk of each login attempt. RBA considers various factors, such as the user&#39;s location, device, IP address, and behavior patterns, to determine the risk level associated with the login. If a login attempt is deemed high-risk, the system may prompt the user for additional verification steps, such as two-factor authentication (2FA) or answering security questions. This approach helps balance security with user convenience by applying stricter security measures only when necessary. In e-commerce, RBA can prevent fraudulent transactions without significantly hindering the shopping experience. In healthcare, it ensures that sensitive patient information remains secure while maintaining accessibility for authorized personnel. By dynamically adjusting authentication requirements, RBA provides a flexible security framework that can adapt to the constantly evolving threat landscape.</p>
 
                             
                         <h2>Examples</h2>
 
                             
                         <ul>
-<li>A user logs into an online shopping site from their home computer and only needs their password.</li>
-<li>A healthcare provider accesses patient records from a new location and is required to undergo two-factor authentication.</li>
+<li>An e-commerce platform prompts users for 2FA when logging in from an unfamiliar device or location.</li>
+<li>A healthcare system requests additional identity verification when a user attempts to access sensitive patient records from a public Wi-Fi network.</li>
 </ul>
 
                             
@@ -137,8 +137,8 @@
 
                             
                         <ul>
-<li>RBA can significantly reduce the risk of account takeover and fraud.</li>
-<li>It can enhance compliance with regulations such as HIPAA in healthcare and PCI DSS in e-commerce.</li>
+<li>RBA enhances security by evaluating real-time risk factors during the authentication process.</li>
+<li>It helps prevent unauthorized access and fraud by requiring additional verification only for suspicious activities.</li>
 </ul>
 
                             
@@ -146,9 +146,31 @@
 
                             
                         <ul>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-17.pdf">Multifactor Authentication for E-Commerce: Risk-Based, FIDO Universal Second Factor Implementations for Purchasers</a></li>
-<li><a href="https://deloitte.wsj.com/cio/riskbased-authentication-a-primer-1383105809">Risk-based Authentication: A Primer - WSJ</a></li>
 <li><a href="https://riskbasedauthentication.org/">Risk-Based Authentication</a></li>
+<li><a href="https://www.okta.com/identity-101/risk-based-authentication/">Risk-Based Authentication: What You Need to Consider | Okta</a></li>
+<li><a href="https://www.techtarget.com/searchsecurity/definition/risk-based-authentication-RBA">risk-based authentication (RBA)</a></li>
+<li><a href="https://deloitte.wsj.com/cio/riskbased-authentication-a-primer-1383105809">Risk-based Authentication: A Primer - WSJ</a></li>
+<li><a href="https://www.experian.com/business/solutions/fraud-management/risk-based-authentication-solutions">Risk Based Authentication Solutions &amp; Software | Experian</a></li>
+<li><a href="https://www.beyondidentity.com/resource/what-is-risk-based-authentication">What Is Risk-Based Authentication?</a></li>
+<li><a href="https://www.okta.com/blog/2019/04/risk-based-authentication/">Risk-Based Authentication: Because You Shouldn&#39;t have to Choose Between Security and Usability</a></li>
+<li><a href="https://arxiv.org/pdf/2003.07622v1.pdf">Is This Really You? An Empirical Study on Risk-Based Authentication Applied in the Wild</a></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/id-protection/concept-identity-protection-policies">Microsoft Entra ID Protection risk-based access policies - Microsoft Entra ID Protection</a></li>
+<li><a href="https://www.transunion.ph/solution/risk-based-authentication">Risk-Based Authentication Solutions</a></li>
+<li><a href="https://duo.com/docs/risk-based-auth">Duo Risk-Based Authentication</a></li>
+<li><a href="https://www.experian.co.uk/blogs/latest-thinking/fraud-prevention/how-risk-based-authentication-can-securely-identify-customers-while-removing-friction-from-the-journey/">How Risk Based Authentication can securely identify customers while removing friction from the journey</a></li>
+<li><a href="https://riskbasedauthentication.org/analysis/largescale/">Pump Up Password Security!</a></li>
+<li><a href="https://www.outseer.com/solutions/risk-based-authentication/">Risk-based Authentication</a></li>
+<li><a href="https://swivelsecure.com/authcontrol-sentry-multi-factor-authentication/risk-based-authentication-rba/">Risk-based authentication (RBA)</a></li>
+<li><a href="https://www.pingidentity.com/en/resources/blog/post/risk-based-authentication-integrations.html">Risk-based Authentication: Integrations for Better Digital Experiences</a></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-risk-based-sspr-mfa">Risk-based user sign-in protection in Microsoft Entra ID - Microsoft Entra ID</a></li>
+<li><a href="https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies">Risk policies - Microsoft Entra ID Protection</a></li>
+<li><a href="https://sec.okta.com/articles/2023/03/setting-right-levels-assurance-zero-trust/">Setting the Right Levels of Assurance for Zero Trust</a></li>
+<li><a href="https://www.appgate.com/risk-based-authentication">Appgate | Risk-Based Authentication | Frictionless Authentication</a></li>
+<li><a href="https://rbainfo.org/download/rba-study-paper-preprint.pdf">ICT Systems Security and Privacy Protection</a></li>
+<li><a href="https://www.rsa.com/resources/blog/multi-factor-authentication/aligning-with-essential-eights-latest-mfa-guidelines/">MFA Makeover: Aligning with Essential Eight&#39;s Latest MFA Guidelines</a></li>
+<li><a href="https://www.fdic.gov/bank-examinations/authentication-internet-banking-lesson-risk-management">Authentication in Internet Banking: A Lesson in Risk Management | FDIC.gov</a></li>
+<li><a href="https://iiw.idcommons.net/index.php?title=Threat_Based_Authentication:_Understanding_the_Risks_of_RBA&oldid=19811">Threat Based Authentication: Understanding the Risks of RBA</a></li>
+<li><a href="https://riskbasedauthentication.org/publications/">Publications</a></li>
 </ul>
 
                             

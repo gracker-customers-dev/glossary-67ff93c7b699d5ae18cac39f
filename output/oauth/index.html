@@ -9,7 +9,7 @@
             OAuth
                 
     </title>
-    <meta name="description" content="OAuth is an open standard for access delegation commonly used for token-based authentication and authorization.">
+    <meta name="description" content="OAuth is an open standard for access delegation, commonly used as a way to grant websites or applications limited access to a user&#39;s information without exposing passwords.">
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
@@ -115,21 +115,21 @@
             <section class="category-section page-content">
                 <div class="content has-space">
                     <p>
-                        OAuth is an open standard for access delegation commonly used for token-based authentication and authorization.
+                        OAuth is an open standard for access delegation, commonly used as a way to grant websites or applications limited access to a user&#39;s information without exposing passwords.
                     </p>
                     
                         <h2>Description</h2>
 
                             
-                        <p>OAuth is a protocol that allows an application to access resources on behalf of a user without sharing the user&#39;s credentials. Instead of using a username and password, OAuth uses access tokens that are granted by an authorization server. This is particularly important in e-commerce and healthcare, where secure access to sensitive information is critical. For instance, a third-party application can request access to a user&#39;s account on a platform like Google or Facebook without needing the user&#39;s password. The user is redirected to the service provider&#39;s authorization page, where they can grant or deny access. If granted, the third-party application receives an access token that allows it to interact with the user&#39;s data according to the permissions defined. This enhances security by reducing the risk of credential theft and allowing users to control the level of access they grant to different applications.</p>
+                        <p>OAuth, which stands for Open Authorization, is a protocol that allows third-party services to exchange information without sharing user credentials. In the context of e-commerce and healthcare, OAuth provides a secure and efficient way to authenticate users across different platforms. For example, in e-commerce, OAuth enables users to log in using their social media accounts, thus simplifying the checkout process and increasing conversion rates. In healthcare, OAuth facilitates secure access to patient data, ensuring that only authorized applications can retrieve sensitive information. By allowing users to grant access to their data with specific permissions, OAuth enhances security and privacy. It operates using tokens, which are generated after user consent and are used instead of passwords, reducing the risk of data breaches. OAuth 2.0, the latest version, is widely adopted and provides robust features to support various authentication scenarios. It is particularly crucial in industries where data privacy and security are paramount, such as healthcare, due to the sensitive nature of the information involved.</p>
 
                             
                         <h2>Examples</h2>
 
                             
                         <ul>
-<li>A user logs into a shopping app using their Google account, which uses OAuth to authenticate without sharing the user&#39;s Google password.</li>
-<li>A healthcare app accesses a patient&#39;s medical records from a hospital system using OAuth tokens, ensuring secure and authorized access.</li>
+<li>Example 1: Allowing users to sign into an e-commerce site using their Google account.</li>
+<li>Example 2: Enabling a health app to access a user&#39;s fitness data from another service with their consent.</li>
 </ul>
 
                             
@@ -137,8 +137,8 @@
 
                             
                         <ul>
-<li>OAuth 2.0 is the most widely used version and includes various flows for different use cases such as web applications, mobile apps, and server-to-server communications.</li>
-<li>It is important to implement OAuth correctly to avoid vulnerabilities like token leakage and ensure that the access tokens have appropriate scopes and expiration.</li>
+<li>Additional info 1: OAuth 2.0 is the most widely used version, offering improved security features and user experience.</li>
+<li>Additional info 2: OAuth helps reduce the need for users to remember multiple passwords, enhancing user convenience.</li>
 </ul>
 
                             
@@ -146,9 +146,31 @@
 
                             
                         <ul>
-<li><a href="https://www.thinkitive.com/blog/using-oauth-2-0-for-ehr-system-authentication-a-step-by-step-guide/">OAuth 2.0 for EHR System Integration &amp; Authentication | Guide</a></li>
-<li><a href="https://www.omnidefend.com/a-guide-to-protect-your-api-using-oauth-2-0-authentication/">A Guide To Protect Your API Using Oauth 2.0 Authentication</a></li>
-<li><a href="https://oauth.net/2/">OAuth 2.0</a></li>
+<li><a href="https://oauth.net/2/">OAuth 2.0 — OAuth</a></li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc6749">The OAuth 2.0 Authorization Framework</a></li>
+<li><a href="https://oauth.net/">OAuth Community Site</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">An Introduction to OAuth 2</a></li>
+<li><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2 Simplified</a></li>
+<li><a href="https://developers.google.com/identity/protocols/oauth2">Using OAuth 2.0 to Access Google APIs</a></li>
+<li><a href="https://oauth.net/specs/">Specs — OAuth</a></li>
+<li><a href="https://www.onelogin.com/learn/what-is-oauth-2">What is OAuth 2.0 | OneLogin</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-23">The OAuth 2.0 Authorization Protocol</a></li>
+<li><a href="https://auth0.com/intro-to-iam/what-is-oauth-2">What is OAuth 2.0 and what does it do for you? - Auth0</a></li>
+<li><a href="https://datatracker.ietf.org/doc/id/draft-ietf-oauth-v2-10.html">The OAuth 2.0 Protocol</a></li>
+<li><a href="https://jenkov.com/tutorials/oauth2/overview.html">OAuth 2.0 Overview</a></li>
+<li><a href="https://tools.ietf.org/pdf/rfc6749.pdf">Internet Engineering Task Force (IETF) D. Hardt, Ed. Request for Comments: 6749 Microsoft Obsoletes: 5849 October 2012 Category: Standards Track</a></li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-web-delegation">The OAuth Protocol: Web Delegation</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-authentication">The OAuth Protocol: Authentication</a></li>
+<li><a href="https://oauth.net/about/introduction/">Introduction — OAuth</a></li>
+<li><a href="https://openid.net/tag/oauth/">OAuth - OpenID Foundation</a></li>
+<li><a href="https://wiki.oauth.net/w/request-access">Request Access</a></li>
+<li><a href="https://wiki.oauth.net/w/session/login">OAuth</a></li>
+<li><a href="https://wiki.oauth.net/">FrontPage</a></li>
+<li><a href="https://wiki.oauth.net/OAuth-2">OAuth 2</a></li>
+<li><a href="https://wiki.oauth.net/w/page-revisions/25236487/OAuth%202">Revisions of OAuth 2</a></li>
+<li><a href="https://wiki.oauth.net/w/page-revisions/12238516/FrontPage">Revisions of FrontPage</a></li>
+<li><a href="https://web.archive.org/web/20170220172223/https://hueniverse.com/oauth/">OAuth</a></li>
 </ul>
 
                             
