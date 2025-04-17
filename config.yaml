@@ -1,0 +1,53 @@
+projectName: Authentication Essentials for E-Commerce and Healthcare
+jsonFilePath: ./input.json
+baseUrl: https://mojoauth.com
+portalHeading: Authentication Essentials for E-Commerce and Healthcare Portal
+portalDescription: >-
+  MojoAuth offers a seamless integration of Passkey functionality, enhancing
+  user convenience and security across e-commerce and healthcare platforms.
+portalTitle: Authentication Essentials for E-Commerce and Healthcare
+searchPlaceholder: Search for seamless authentication solutions
+useAlphabetsCategory: true
+homeLink: https://mojoauth.com/
+logoLink: https://mojoauth.com/
+ctaText: Get Started for Free
+aboutLink: https://mojoauth.com/about
+productsLink: https://mojoauth.com/products
+logoImgUrl: https://mojoauth.com/logo.png
+ctaLink: https://mojoauth.com/dashboard/signin
+copyrightText: © 2023 MojoAuth. All rights reserved.
+faviconUrl: https://mojoauth.com/favicon.ico
+googleTagManagerId: GTM-XXXXXX
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
+socialLinks:
+  - platform: LinkedIn
+    url: https://linkedin.com/company/mojoauth
+theme:
+  primaryColor: '#ff5722'
+  secondaryColor: '#ff9800'
+  backgroundColor: '#ffffff'
+  textColor: '#333333'
+  accentColor: '#607d8b'
+fonts:
+  - family: Roboto
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Open Sans
+    weights:
+      - 500
+      - 600
+      - 700
