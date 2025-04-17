@@ -6,11 +6,11 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/access-tokens/</loc>
+    <loc>https://mojoauth.com/access-control/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/access-control/</loc>
+    <loc>https://mojoauth.com/access-tokens/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
@@ -50,6 +50,10 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
+    <loc>https://mojoauth.com/malware/</loc>
+    <lastmod>2025-04-17</lastmod>
+  </url>
+  <url>
     <loc>https://mojoauth.com/multi-factor-authentication/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
@@ -62,7 +66,7 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/privacy-compliance/</loc>
+    <loc>https://mojoauth.com/passwordless-authentication/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
@@ -70,11 +74,11 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/public-key-infrastructure-pki/</loc>
+    <loc>https://mojoauth.com/privacy-compliance/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/passwordless-authentication/</loc>
+    <loc>https://mojoauth.com/public-key-infrastructure-pki/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
@@ -82,11 +86,7 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/single-sign-on/</loc>
-    <lastmod>2025-04-17</lastmod>
-  </url>
-  <url>
-    <loc>https://mojoauth.com/session-management/</loc>
+    <loc>https://mojoauth.com/secure-socket-layer-ssl/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
@@ -94,7 +94,11 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/secure-socket-layer-ssl/</loc>
+    <loc>https://mojoauth.com/session-management/</loc>
+    <lastmod>2025-04-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mojoauth.com/single-sign-on/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
@@ -102,19 +106,19 @@
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/two-factor-authentication/</loc>
-    <lastmod>2025-04-17</lastmod>
-  </url>
-  <url>
     <loc>https://mojoauth.com/transport-layer-security-tls/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
-    <loc>https://mojoauth.com/user-identity-verification/</loc>
+    <loc>https://mojoauth.com/two-factor-authentication/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
   <url>
     <loc>https://mojoauth.com/user-consent/</loc>
+    <lastmod>2025-04-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mojoauth.com/user-identity-verification/</loc>
     <lastmod>2025-04-17</lastmod>
   </url>
 </urlset>
